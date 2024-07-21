@@ -1,13 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>FrogWeb</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .teamMembers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .memberCard {
+      flex: 0 1 200px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+  <title>挂人</title>
 </head>
-
-<h1>我也不知道这是什么玩意儿。</h1>
-
-<ul>
-	<li> <a href="https://b23.tv/ehpfkUe">这是作者主页</a> </li>
-</ul>
-
-<h1>这里是挂人的</h1>
-<p style="position: relative; top: 100px;">铁国炖大饿</p>
-<img border="2" src="/images/TGDaTou.jpg" alt="sb" width="108" height="108">
+<body>
+  <div class="container">
+    <h1>挂人</h1>
+    <div class="teamMembers">
+      <div class="memberCard">
+        <a href="https://b23.tv/1vGGGOz">
+          <img src="/images/TGDaTou.jpg" alt="TG铁锅炖大鹅">
+          <h3>TG铁锅炖大鹅</h3>
+          <p>我不知道</p>
+        </a>
+      </div>
+      <div class="memberCard">
+        <a href="https://b23.tv/DPKszz9">
+          <img src="/images/MYQ.jpg" alt="私人myq">
+          <h3>缪豫琪</h3>
+          <p>试图发送我的大头</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
